@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="script.js">
+
+        <title>Tours & Travels</title>
+        <style>
+
+
+        </style>
+    </head>
+
+    <body>
+        
+        <br><br>
+        <div class="main">
+            <div class="navigation">
+                <img src="images/logo.jpg" class="logo">
+                <div class="title">
+                    <h1>Tamanna's Travel Hub</h1>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="info.html">Information</a></li>
+                    <li><a href="destination.html">Destinations</a></li>
+                    <li><a href="package.html">Package Offers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <br><br>
+            <center>
+                <div class="login">
+                    <h1>User Login Form</h1>
+                    <form id="form" action="index.html" target="_blank" method="post"onsubmit="return(validate())" action="">
+                        <div class="txt_field">
+                            <input id="username" type="text" >
+                            <span></span>
+                            <label>UserName</label>
+                        </div>
+                        <div class="txt_field">
+                            <input id="pwd" type="password" required>
+                            <span></span>
+                            <label>Password</label>
+                        </div>
+                        <div class="pass">
+                            Forgot Password?
+                        </div>
+                        <input id="submit" type="submit" value="Login" onclick="validate()">
+                        <div class="signup_link">
+                            Not a member? <a href="#">Sign up</a>
+                        </div>
+                    </form>
+                </div>
+            </center>
+        </div>
+    </body>
+</html>
